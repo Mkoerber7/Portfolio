@@ -133,19 +133,42 @@ table {
   border-spacing: 0; }
 
 .header-container {
+  height: 100vh;
+  width: 100%; }
+
+.text-container {
   float: right; }
 
 .header-name {
   font-size: 4em;
   margin-top: 6em;
-  margin-right: 1em; }
+  margin-right: 1em;
+  color: #0D250C; }
 
 .header-title {
   font-size: 2em;
   color: white; }
 
 .about-container {
-  height: 50vh;
+  position: relative;
+  height: 75vh;
+  width: 100%;
+  background-color: black; }
+
+.skills-container {
+  position: relative;
+  height: 75vh;
+  width: 100%; }
+
+.projects-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: black; }
+
+.footer-container {
+  position: relative;
+  height: 25vh;
   width: 100%; }
 
 /*# sourceMappingURL=index.css.map */

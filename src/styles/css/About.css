@@ -1,5 +1,7 @@
 .about-container {
-  height: 50vh;
-  width: 100%; }
+  position: relative;
+  height: 75vh;
+  width: 100%;
+  background-color: black; }
 
 /*# sourceMappingURL=About.css.map */
