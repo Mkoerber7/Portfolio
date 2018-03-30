@@ -1,20 +1,26 @@
 .header-container {
     height: 100vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .text-container {
-    float: right;
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
 }
 
   .header-name {
     font-size: 4em;
-    margin-top: 6em;
-    margin-right: 1em;
-    color: #0D250C;
+    color: $blue;
+    font-family: $title;
 }
   
   .header-title {
     font-size: 2em; 
     color: white;
+    font-family: $title;
 }

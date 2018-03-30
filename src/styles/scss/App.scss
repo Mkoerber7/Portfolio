@@ -1,11 +1,24 @@
+$sapphire: #1B6273;
+$grey: #696773;
+$blue: #0B132B;
+$red: #640D14;  
+$title: 'Cormorant Garamond', serif;
+$body: 'Proza Libre', sans-serif;
+
+
+
+
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: linear-gradient(to bottom right, black, transparent), linear-gradient(to top left, white, transparent), url('../../assets/background.jpg');
-  //background: linear-gradient(black, rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.103)), url('../../assets/danny-strutt-509345-unsplash.jpg');
+  // background: linear-gradient(to bottom right, black, transparent), linear-gradient(to top left, white, transparent), url('../../assets/background.jpg');
+  background: radial-gradient(transparent, $blue), url('../../assets/natalie-toombs-448839-unsplash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+//rgb(27, 97, 115)
 
