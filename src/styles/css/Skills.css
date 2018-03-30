@@ -1,12 +1,12 @@
 /*
-Error: Undefined variable: "$sapphire".
+Error: Undefined variable: "$grey".
         on line 5 of src/styles/scss/Skills.scss
 
 1: .skills-container {
 2:     position: relative;
 3:     height: 70vh;
 4:     width: 100%;
-5:     background-color: $sapphire;
+5:     background-color: $grey;
 6: }
 
 Backtrace:
@@ -64,4 +64,4 @@ src/styles/scss/Skills.scss:5
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$sapphire\".\A         on line 5 of src/styles/scss/Skills.scss\A \A 1: .skills-container {\A 2:     position: relative;\A 3:     height: 70vh;\A 4:     width: 100%;\A 5:     background-color: $sapphire;\A 6: }"; }
+  content: "Error: Undefined variable: \"$grey\".\A         on line 5 of src/styles/scss/Skills.scss\A \A 1: .skills-container {\A 2:     position: relative;\A 3:     height: 70vh;\A 4:     width: 100%;\A 5:     background-color: $grey;\A 6: }"; }

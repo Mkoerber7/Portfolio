@@ -2,7 +2,7 @@
 Error: Undefined variable: "$blue".
         on line 5 of src/styles/scss/About.scss
 
-1: .about-container {
+1: #about-container {
 2:     position: relative;
 3:     height: 100vh;
 4:     width: 100%;
@@ -64,4 +64,4 @@ src/styles/scss/About.scss:5
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$blue\".\A         on line 5 of src/styles/scss/About.scss\A \A 1: .about-container {\A 2:     position: relative;\A 3:     height: 100vh;\A 4:     width: 100%;\A 5:     background-color: $blue;\A 6: }"; }
+  content: "Error: Undefined variable: \"$blue\".\A         on line 5 of src/styles/scss/About.scss\A \A 1: #about-container {\A 2:     position: relative;\A 3:     height: 100vh;\A 4:     width: 100%;\A 5:     background-color: $blue;\A 6: }"; }

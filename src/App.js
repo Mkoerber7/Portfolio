@@ -13,7 +13,6 @@ class App extends Component {
         <About />
         <Skills />
         <Projects />
-        <Footer />
       </div>
     );
   }

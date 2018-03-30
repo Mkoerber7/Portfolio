@@ -7,20 +7,73 @@
 }
 
 .text-container {
-    height: auto;
     width: auto;
     text-align: center;
-    margin: 0 auto;
+    padding-top: 7em;
 }
 
-  .header-name {
+.header-name {
     font-size: 4em;
     color: $blue;
     font-family: $title;
 }
   
-  .header-title {
+.header-title {
     font-size: 2em; 
     color: white;
     font-family: $title;
+}
+
+.snap-btn {
+    margin-top: 20em;
+}
+
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  margin-top: 13em;
+  border-radius: 9em;
+  font-size: .8em;
+  transition: all .2s;
+  position: relative;
+}
+
+.btn:hover {
+  transform: translateY(-.5em);
+  box-shadow: 0 1em 2em rgba(0,0,0,.2);
+}
+
+.btn:active {
+  transform: translateY(-.15em);
+  box-shadow: 0 .5em 2em rgba(0,0,0,.2);
+}
+
+.btn-blue {
+  background-color: $blue;
+  color: white;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 9em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-blue::after {
+    background-color: $blue;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
 }
