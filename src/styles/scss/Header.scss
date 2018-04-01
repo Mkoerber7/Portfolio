@@ -9,7 +9,7 @@
 .text-container {
     width: auto;
     text-align: center;
-    padding-top: 7em;
+    padding-top: 2em;
 }
 
 .header-name {
@@ -24,31 +24,17 @@
     font-family: $title;
 }
 
-.snap-btn {
-    margin-top: 20em;
-}
-
 .btn:link,
 .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
   padding: 15px 40px;
   display: inline-block;
-  margin-top: 13em;
+  margin-top: 20em;
   border-radius: 9em;
   font-size: .8em;
   transition: all .2s;
   position: relative;
-}
-
-.btn:hover {
-  transform: translateY(-.5em);
-  box-shadow: 0 1em 2em rgba(0,0,0,.2);
-}
-
-.btn:active {
-  transform: translateY(-.15em);
-  box-shadow: 0 .5em 2em rgba(0,0,0,.2);
 }
 
 .btn-blue {
@@ -56,24 +42,46 @@
   color: white;
 }
 
-.btn::after {
-    content: "";
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    border-radius: 9em;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: all .4s;
+@media screen and (min-width: 420px) {
+    .text-container {padding-top: 6em;}
+    .btn:link,
+    .btn:visited {margin-top: 17em;}
+
+    .btn:hover {
+        transform: translateY(-.5em);
+        box-shadow: 0 1em 2em rgba(0,0,0,.2);
+      
+        active {
+          transform: translateY(-.15em);
+          box-shadow: 0 .5em 2em rgba(0,0,0,.2);
+        }
+      }
+
+    .btn::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 9em;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;
+    }
+
+    .btn-blue::after {
+        background-color: $sapphire;
+    }
+    
+    .btn:hover::after {
+        transform: scaleX(1.6) scaleY(1.8);
+        opacity: 0;
+    }
 }
 
-.btn-blue::after {
-    background-color: $blue;
-}
-
-.btn:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0;
+@media screen and (min-width: 736px) {
+    .text-container {padding-top: 10em;}
+    .btn:link,
+    .btn:visited {margin-top: 15em;}
 }

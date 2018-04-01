@@ -4,10 +4,14 @@ Error: Undefined variable: "$blue".
 
 1: #about-container {
 2:     position: relative;
-3:     height: 100vh;
-4:     width: 100%;
+3:     width: 100%;
+4:     padding: 1em;
 5:     background-color: $blue;
-6: }
+6:     display: flex;
+7:     flex-direction: column;
+8: }
+9: 
+10: .image-div {
 
 Backtrace:
 src/styles/scss/About.scss:5
@@ -64,4 +68,4 @@ src/styles/scss/About.scss:5
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$blue\".\A         on line 5 of src/styles/scss/About.scss\A \A 1: #about-container {\A 2:     position: relative;\A 3:     height: 100vh;\A 4:     width: 100%;\A 5:     background-color: $blue;\A 6: }"; }
+  content: "Error: Undefined variable: \"$blue\".\A         on line 5 of src/styles/scss/About.scss\A \A 1: #about-container {\A 2:     position: relative;\A 3:     width: 100%;\A 4:     padding: 1em;\A 5:     background-color: $blue;\A 6:     display: flex;\A 7:     flex-direction: column;\A 8: }\A 9: \A 10: .image-div {"; }

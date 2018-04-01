@@ -1,6 +1,68 @@
 #about-container {
     position: relative;
-    height: 100vh;
     width: 100%;
+    padding: 1em;
     background-color: $blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-div {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.portrait {
+    height: 15em;
+    width: auto;
+    border-radius: 50%;
+}
+
+.about-div {
+    height: 50%;
+    width: 100%;
+    color: white;
+    font-family: $body;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        font-size: 4em;
+        margin-top: .5em;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    p {
+        line-height: 2em;
+    }
+}
+
+
+@media screen and (min-width: 792px) {
+    #about-container {
+        height: 100vh;
+        display: inline-flex;
+        flex-direction: row;
+    }
+
+    .image-div {
+        height: 100%;
+        width: 50%;
+        float: left;
+    }
+
+    .portrait {
+        height: 20em;
+    }
+    
+    .about-div {
+        height: 100%;
+        width: 50%;
+        float: right;
+    }
+
 }

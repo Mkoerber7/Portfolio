@@ -2,7 +2,7 @@
 Error: Undefined variable: "$blue".
         on line 17 of src/styles/scss/Header.scss
 
-12:     padding-top: 7em;
+12:     padding-top: 2em;
 13: }
 14: 
 15: .header-name {
@@ -69,4 +69,4 @@ src/styles/scss/Header.scss:17
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$blue\".\A         on line 17 of src/styles/scss/Header.scss\A \A 12:     padding-top: 7em;\A 13: }\A 14: \A 15: .header-name {\A 16:     font-size: 4em;\A 17:     color: $blue;\A 18:     font-family: $title;\A 19: }\A 20:   \A 21: .header-title {\A 22:     font-size: 2em; "; }
+  content: "Error: Undefined variable: \"$blue\".\A         on line 17 of src/styles/scss/Header.scss\A \A 12:     padding-top: 2em;\A 13: }\A 14: \A 15: .header-name {\A 16:     font-size: 4em;\A 17:     color: $blue;\A 18:     font-family: $title;\A 19: }\A 20:   \A 21: .header-title {\A 22:     font-size: 2em; "; }
