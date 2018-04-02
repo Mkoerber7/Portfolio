@@ -4,10 +4,14 @@ Error: Undefined variable: "$grey".
 
 1: .skills-container {
 2:     position: relative;
-3:     height: 70vh;
+3:     height: auto;
 4:     width: 100%;
 5:     background-color: $grey;
 6: }
+7: 
+8: .skills-title {
+9:     color: $blue;
+10:     font-size: 3.5em;
 
 Backtrace:
 src/styles/scss/Skills.scss:5
@@ -64,4 +68,4 @@ src/styles/scss/Skills.scss:5
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$grey\".\A         on line 5 of src/styles/scss/Skills.scss\A \A 1: .skills-container {\A 2:     position: relative;\A 3:     height: 70vh;\A 4:     width: 100%;\A 5:     background-color: $grey;\A 6: }"; }
+  content: "Error: Undefined variable: \"$grey\".\A         on line 5 of src/styles/scss/Skills.scss\A \A 1: .skills-container {\A 2:     position: relative;\A 3:     height: auto;\A 4:     width: 100%;\A 5:     background-color: $grey;\A 6: }\A 7: \A 8: .skills-title {\A 9:     color: $blue;\A 10:     font-size: 3.5em;"; }
