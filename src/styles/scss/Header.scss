@@ -50,6 +50,7 @@
     .btn:hover {
         transform: translateY(-.5em);
         box-shadow: 0 1em 2em rgba(0,0,0,.2);
+        color: white;
       
         active {
           transform: translateY(-.15em);
@@ -71,7 +72,7 @@
     }
 
     .btn-blue::after {
-        background-color: $sapphire;
+        background-color: $blue;
     }
     
     .btn:hover::after {
@@ -82,6 +83,7 @@
 
 @media screen and (min-width: 736px) {
     .text-container {padding-top: 10em;}
+    .btn-blue{color: $grey;}
     .btn:link,
     .btn:visited {margin-top: 15em;}
 }

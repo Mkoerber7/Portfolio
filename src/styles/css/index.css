@@ -180,7 +180,8 @@ table {
 
   .btn:hover {
     transform: translateY(-0.5em);
-    box-shadow: 0 1em 2em rgba(0, 0, 0, 0.2); }
+    box-shadow: 0 1em 2em rgba(0, 0, 0, 0.2);
+    color: white; }
     .btn:hover active {
       transform: translateY(-0.15em);
       box-shadow: 0 0.5em 2em rgba(0, 0, 0, 0.2); }
@@ -198,7 +199,7 @@ table {
     transition: all .4s; }
 
   .btn-blue::after {
-    background-color: #1B6273; }
+    background-color: #0B132B; }
 
   .btn:hover::after {
     transform: scaleX(1.6) scaleY(1.8);
@@ -206,6 +207,9 @@ table {
 @media screen and (min-width: 736px) {
   .text-container {
     padding-top: 10em; }
+
+  .btn-blue {
+    color: #8a8a8d; }
 
   .btn:link,
   .btn:visited {
@@ -267,14 +271,13 @@ table {
   position: relative;
   height: auto;
   width: 100%;
-  background-color: #696773; }
-
-.skills-title {
-  color: #0B132B;
-  font-size: 3.5em;
-  text-align: center;
-  padding-top: 1em;
-  padding-bottom: .5em; }
+  background-color: #8a8a8d; }
+  .skills-container h1 {
+    color: #0B132B;
+    font-size: 3.5em;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: .5em; }
 
 .border-line {
   width: 7em;
@@ -299,7 +302,7 @@ i {
 
 @media only screen and (min-width: 480px) {
   .icon:hover {
-    color: #1B6273; }
+    color: white; }
 
   .icons {
     padding: 1em;
@@ -312,9 +315,33 @@ i {
     margin: .7em 1em; } }
 .projects-container {
   position: relative;
-  height: 300vh;
+  height: 310vh;
   width: 100%;
-  background: linear-gradient(white, white, rgba(255, 255, 255, 0.754), rgba(255, 255, 255, 0.507), rgba(255, 255, 255, 0.268)); }
+  background: linear-gradient(white, white, white, white, white, rgba(255, 255, 255, 0.627)); }
+  .projects-container h1 {
+    color: #0B132B;
+    font-size: 3.5em;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: .5em; }
+
+.all-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; }
+
+.box {
+  margin: 5em auto;
+  height: 20em;
+  background-color: #8a8a8d;
+  width: 75%; }
+
+.contact-box {
+  background-color: transparent;
+  margin: 0 auto; }
+  .contact-box h2 {
+    font-size: 3em; }
 
 .footer-container {
   position: relative;

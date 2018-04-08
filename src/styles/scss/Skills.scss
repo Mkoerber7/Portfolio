@@ -3,14 +3,14 @@
     height: auto;
     width: 100%;
     background-color: $grey;
-}
 
-.skills-title {
-    color: $blue;
-    font-size: 3.5em;
-    text-align: center;
-    padding-top: 1em;
-    padding-bottom: .5em;
+    h1 {
+        color: $blue;
+        font-size: 3.5em;
+        text-align: center;
+        padding-top: 1em;
+        padding-bottom: .5em;
+    }
 }
 
 .border-line {
@@ -38,7 +38,7 @@ i {
 
 @media only screen and (min-width: 480px){
     
-.icon:hover {color: $sapphire;}
+.icon:hover {color: white;}
 
 .icons {
     padding: 1em;
