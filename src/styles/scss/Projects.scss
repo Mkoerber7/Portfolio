@@ -1,6 +1,6 @@
 .projects-container {
     position: relative;
-    height: 310vh;
+    height: 320vh;
     width: 100%;
     background: linear-gradient(white, white, white, white, white, rgba(255, 255, 255, 0.627));
 
@@ -10,6 +10,13 @@
         text-align: center;
         padding-top: 1em;
         padding-bottom: .5em;
+        font-family: $title;
+    }
+
+    h3 {
+        font-size: 3em;
+        text-align: center;
+        font-family: $title;
     }
 }
 
@@ -38,8 +45,56 @@
 .contact-box {
     background-color: transparent;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
 
     h2 {
         font-size: 3em;
+    }
+
+    i {
+        font-size: 5em;
+        margin : 1.4em auto;
+    }
+
+    a { 
+        margin: 2em;
+    }
+}
+
+.contact-item {
+    font-family: $body;
+    font-size: 1.5em;
+}
+
+.email {
+    text-align: center;
+}
+
+@media screen and (min-width: 798px) {
+    .projects-container {
+        height: 300vh;
+    }
+
+    .contact-box{
+        flex-direction: row;
+        i {
+            margin : 1em auto;
+        }
+
+        a {
+            margin: 0 7em;
+        }
+    }
+
+    .contact-icons {
+        margin: 0 auto;
+    }
+
+    .email {
+        text-align: center;
+        font-family: $body;
     }
 }

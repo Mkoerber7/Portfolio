@@ -277,7 +277,8 @@ table {
     font-size: 3.5em;
     text-align: center;
     padding-top: 1em;
-    padding-bottom: .5em; }
+    padding-bottom: .5em;
+    font-family: "Cormorant Garamond", serif; }
 
 .border-line {
   width: 7em;
@@ -315,7 +316,7 @@ i {
     margin: .7em 1em; } }
 .projects-container {
   position: relative;
-  height: 310vh;
+  height: 320vh;
   width: 100%;
   background: linear-gradient(white, white, white, white, white, rgba(255, 255, 255, 0.627)); }
   .projects-container h1 {
@@ -323,7 +324,12 @@ i {
     font-size: 3.5em;
     text-align: center;
     padding-top: 1em;
-    padding-bottom: .5em; }
+    padding-bottom: .5em;
+    font-family: "Cormorant Garamond", serif; }
+  .projects-container h3 {
+    font-size: 3em;
+    text-align: center;
+    font-family: "Cormorant Garamond", serif; }
 
 .all-projects {
   display: flex;
@@ -339,10 +345,43 @@ i {
 
 .contact-box {
   background-color: transparent;
-  margin: 0 auto; }
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto; }
   .contact-box h2 {
     font-size: 3em; }
+  .contact-box i {
+    font-size: 5em;
+    margin: 1.4em auto; }
+  .contact-box a {
+    margin: 2em; }
 
+.contact-item {
+  font-family: "Proza Libre", sans-serif;
+  font-size: 1.5em; }
+
+.email {
+  text-align: center; }
+
+@media screen and (min-width: 798px) {
+  .projects-container {
+    height: 300vh; }
+
+  .contact-box {
+    flex-direction: row; }
+    .contact-box i {
+      margin: 1em auto; }
+    .contact-box a {
+      margin: 0 7em; }
+
+  .contact-icons {
+    margin: 0 auto; }
+
+  .email {
+    text-align: center;
+    font-family: "Proza Libre", sans-serif; } }
 .footer-container {
   position: relative;
   height: 25vh;

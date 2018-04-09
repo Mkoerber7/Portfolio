@@ -16,11 +16,28 @@ const Projects = () => {
                 <div className="cc-box box">
                   <h2>Casa Connection</h2>
                 </div>
+            </div>
 
-                <div className="contact-box box">
-                 <h2>Contact Me</h2>
+            <h3>Contact Me</h3>
+            <div className="contact-box box">
+                <div className = "contact-icons">
+              
+                <a href="https://www.linkedin.com/in/michael-koerber-847374160/">
+                <i class="fab fa-linkedin"></i>
+                </a>
+               
+                <a href="https://www.github.com/Mkoerber7">
+                <i className="fab fa-github contact-pic" />
+                </a>
+
                 </div>
             </div>
+            <br />
+            <div className="email">
+                <span className="contact-item">Mkoerber7@gmail.com
+                </span>
+            </div>
+            
         </div>
     )
 }
