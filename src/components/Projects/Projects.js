@@ -5,18 +5,40 @@ const Projects = () => {
         <div className="projects-container">
             <h1>Projects</h1>
             <div className="all-projects">
-                <div className="rf-box box">
+                <div className="box">
                   <h2>Recipe Finder</h2>
+                  <div className="project-description">
+                  <p>A web application that will find any recipes that match the ingredients a user enters, using a third party API.</p>
+                  </div>
+                  <div className="buttons">
+                  <a href="https://github.com/Mkoerber7/Nodb-Project" className="button">Github</a>
+                  </div>
                 </div>
 
-                <div className="sp-box box">
+                <div className="box">
                   <h2>Strickland Propane</h2>
+                  <div className="project-description">
+                  <p>A parody e-commerce site that sells propane and propane accessories. This site was built using react, redux, node, SQL, and sass.</p>
+                  </div>
+                  <div className="buttons">
+                  <a href="http://www.stricklandpropane.fun/#/" className="button">Live Site</a>
+                  <a href="https://github.com/Mkoerber7/strickland-propane" className="button">Github</a>
+                  </div>
                 </div>
 
-                <div className="cc-box box">
+                <div className="box">
                   <h2>Casa Connection</h2>
+                  <div className="project-description">
+                  <p>A collaborative group project allowing property owners to organize and track tenant, financial, and maintenance information.</p>
+                  </div>
+                  <div className="buttons">
+                  <a href="www.casaconnectmgmt.com" className="button">Live Site</a>
+                  <a href="https://github.com/rental-management/Casa-Connection" className="button">Github</a>
+                  </div>
                 </div>
             </div>
+
+            <div className="contact-section">
 
             <h3>Contact Me</h3>
             <div className="contact-box box">
@@ -36,6 +58,8 @@ const Projects = () => {
             <div className="email">
                 <span className="contact-item">Mkoerber7@gmail.com
                 </span>
+            </div>
+
             </div>
             
         </div>

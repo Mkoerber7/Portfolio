@@ -336,12 +336,30 @@ i {
   flex-direction: column;
   align-items: center;
   text-align: center; }
+  .all-projects h2 {
+    font-size: 2em;
+    margin-top: .5em; }
 
 .box {
   margin: 5em auto;
   height: 20em;
   background-color: #8a8a8d;
   width: 75%; }
+
+.project-description {
+  margin-top: 2em; }
+
+.buttons {
+  margin-top: 5em; }
+  .buttons a {
+    text-decoration: none;
+    color: white; }
+
+.button {
+  padding: 2.5em; }
+
+.contact-section {
+  margin-top: 5em; }
 
 .contact-box {
   background-color: transparent;
