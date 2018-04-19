@@ -316,7 +316,7 @@ i {
     margin: .7em 1em; } }
 .projects-container {
   position: relative;
-  height: 320vh;
+  height: 3000px;
   width: 100%;
   background: linear-gradient(white, white, white, white, white, rgba(255, 255, 255, 0.627)); }
   .projects-container h1 {
@@ -400,10 +400,5 @@ i {
   .email {
     text-align: center;
     font-family: "Proza Libre", sans-serif; } }
-.footer-container {
-  position: relative;
-  height: 25vh;
-  width: 100%;
-  background: linear-gradient(rgba(255, 255, 255, 0.268), rgba(255, 255, 255, 0.11)); }
 
 /*# sourceMappingURL=index.css.map */
