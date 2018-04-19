@@ -248,6 +248,14 @@ table {
     text-align: center; }
   .about-div p {
     line-height: 2em; }
+  .about-div i {
+    color: white;
+    text-align: center; }
+
+.currently {
+  font-size: 1.5em;
+  margin-top: 3em;
+  text-align: center; }
 
 @media screen and (min-width: 792px) {
   #about-container {
@@ -316,7 +324,6 @@ i {
     margin: .7em 1em; } }
 .projects-container {
   position: relative;
-  height: 3000px;
   width: 100%;
   background: linear-gradient(white, white, white, white, white, rgba(255, 255, 255, 0.627)); }
   .projects-container h1 {
@@ -359,7 +366,7 @@ i {
   padding: 2.5em; }
 
 .contact-section {
-  margin-top: 5em; }
+  margin-top: 3em; }
 
 .contact-box {
   background-color: transparent;
