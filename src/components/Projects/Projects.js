@@ -2,7 +2,7 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <div className="projects-container">
+        <div id="projects-container">
             <h1>Projects</h1>
             <div className="all-projects">
                 <div className="box">
@@ -32,7 +32,7 @@ const Projects = () => {
                   <p>A collaborative group project allowing property owners to organize and track tenant, financial, and maintenance information.</p>
                   </div>
                   <div className="buttons">
-                  <a href="www.casaconnectmgmt.com" className="button">Live Site</a>
+                  <a href="http://www.casaconnectionmgmt.com" className="button">Live Site</a>
                   <a href="https://github.com/rental-management/Casa-Connection" className="button">Github</a>
                   </div>
                 </div>
@@ -47,17 +47,15 @@ const Projects = () => {
                 <a href="https://www.linkedin.com/in/michael-koerber-847374160/">
                 <i class="fab fa-linkedin"></i>
                 </a>
-               
+
+                
                 <a href="https://www.github.com/Mkoerber7">
                 <i className="fab fa-github contact-pic" />
                 </a>
-
-                </div>
-            </div>
-            <br />
-            <div className="email">
+                
                 <span className="contact-item">Mkoerber7@gmail.com
                 </span>
+                </div>
             </div>
 
             </div>

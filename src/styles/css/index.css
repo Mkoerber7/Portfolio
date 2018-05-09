@@ -209,7 +209,7 @@ table {
     padding-top: 10em; }
 
   .btn-blue {
-    color: #8a8a8d; }
+    color: white; }
 
   .btn:link,
   .btn:visited {
@@ -247,7 +247,8 @@ table {
     margin-bottom: 1em;
     text-align: center; }
   .about-div p {
-    line-height: 2em; }
+    line-height: 2em;
+    font-size: 1.5em; }
   .about-div i {
     color: white;
     text-align: center; }
@@ -322,18 +323,19 @@ i {
 
   i {
     margin: .7em 1em; } }
-.projects-container {
+#projects-container {
   position: relative;
+  height: auto;
   width: 100%;
   background: linear-gradient(white, white, white, white, white, rgba(255, 255, 255, 0.627)); }
-  .projects-container h1 {
+  #projects-container h1 {
     color: #0B132B;
     font-size: 3.5em;
     text-align: center;
     padding-top: 1em;
     padding-bottom: .5em;
     font-family: "Cormorant Garamond", serif; }
-  .projects-container h3 {
+  #projects-container h3 {
     font-size: 3em;
     text-align: center;
     font-family: "Cormorant Garamond", serif; }
@@ -351,7 +353,8 @@ i {
   margin: 5em auto;
   height: 20em;
   background-color: #8a8a8d;
-  width: 75%; }
+  width: 75%;
+  color: #0B132B; }
 
 .project-description {
   margin-top: 2em; }
@@ -366,7 +369,8 @@ i {
   padding: 2.5em; }
 
 .contact-section {
-  margin-top: 3em; }
+  margin-top: 3em;
+  height: 100vh; }
 
 .contact-box {
   background-color: transparent;
@@ -374,21 +378,21 @@ i {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: auto; }
+  height: 40vh; }
   .contact-box h2 {
     font-size: 3em; }
   .contact-box i {
-    font-size: 5em;
+    font-size: 3em;
     margin: 1.4em auto; }
-  .contact-box a {
-    margin: 2em; }
+
+.contact-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 .contact-item {
   font-family: "Proza Libre", sans-serif;
   font-size: 1.5em; }
-
-.email {
-  text-align: center; }
 
 @media screen and (min-width: 798px) {
   .projects-container {
@@ -404,8 +408,12 @@ i {
   .contact-icons {
     margin: 0 auto; }
 
-  .email {
-    text-align: center;
-    font-family: "Proza Libre", sans-serif; } }
+  .contact-section {
+    height: 50vh; }
+
+  .contact-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center; } }
 
 /*# sourceMappingURL=index.css.map */
