@@ -9,10 +9,8 @@ const About = (props) => {
         </div>
         <div className="about-div">
             <h2 className="about-title">Hello!</h2>
-            <p>I’m Mike, a full-stack web developer
+            <p>I’m Mike. A full stack web developer, problem solver, and world traveler. If I’m not researching my next adventure, I’m investing my time learning new technologies and building clean, responsive web applications.    
             </p>
-            <p className="currently">And I'm currently learning...</p>
-            <i className="icon-python icon"></i>
             </div>
         
         </div>
