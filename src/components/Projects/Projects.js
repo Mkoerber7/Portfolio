@@ -1,4 +1,12 @@
 import React from 'react';
+import Casa1 from '../../assets/Casa1.png';
+import Casa2 from '../../assets/Casa2.png';
+import Sp1 from '../../assets/Sp1.png';
+import Sp2 from '../../assets/Sp2.png';
+import Rf1 from '../../assets/Rf1.png';
+import Rf2 from '../../assets/Rf2.png';
+
+
 
 const Projects = () => {
     return (
@@ -16,6 +24,10 @@ const Projects = () => {
                 <li>Used Chart.js to display data such as rental income, utilities, and HOA dues</li>
             </ul>
             </div>
+            <div className="images_container">
+            <img src={Casa1}/>
+            <img src={Casa2}/>
+            </div>
             <div className="buttons">
             <a href="http://www.casaconnectionmgmt.com" className="button">Live Site</a>
             <a href="https://github.com/rental-management/Casa-Connection" className="button">Github</a>
@@ -32,6 +44,10 @@ const Projects = () => {
                 <li>Included Stripe for easy payments</li>
             </ul>
             </div>
+            <div className="images_container">
+            <img src={Sp1}/>
+            <img src={Sp2}/>
+            </div>
             <div className="buttons">
             <a href="http://www.stricklandpropane.fun/#/" className="button">Live Site</a>
             <a href="https://github.com/Mkoerber7/strickland-propane" className="button">Github</a>
@@ -42,6 +58,10 @@ const Projects = () => {
               <h2>Recipe Finder</h2>
               <div className="project-description">
               <p>A web application that will find any recipes that match the ingredients a user enters, using a third party API.</p>
+              </div>
+              <div className="images_container">
+              <img src={Rf1}/>
+              <img src={Rf2}/>
               </div>
               <div className="buttons">
               <a href="https://github.com/Mkoerber7/Nodb-Project" className="button">Github</a>
