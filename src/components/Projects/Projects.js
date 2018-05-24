@@ -19,9 +19,9 @@ const Projects = () => {
             <div className="project-description">
             <ul>
                 <li>A platform for property owners to manage and track tenant, property, maintenance and financial information.</li>
-                <li>Implemented the Redux design pattern in order to efficiently manage application state</li>
-                <li>Integrated Material UI components for a pleasant user experience</li>
-                <li>Used Chart.js to display data such as rental income, utilities, and HOA dues</li>
+                <li>Implemented the Redux design pattern in order to efficiently manage application state.</li>
+                <li>Integrated Material UI components for a pleasant user experience.</li>
+                <li>Used Chart.js to display data such as rental income, utilities, and HOA dues.</li>
             </ul>
             </div>
             <div className="images_container">
@@ -38,15 +38,15 @@ const Projects = () => {
             <h2>Strickland Propane</h2>
             <div className="project-description">
             <ul>
-                <li>A mock e-commerce site that sells propane and propane accessories. This site was built using react, redux, node, SQL, and sass</li>
-                <li>Utilized React with Redux for the front end and state management</li>
-                <li>Used PostgreSQL to store information in a relational database</li>
-                <li>Included Stripe for easy payments</li>
+                <li>A mock e-commerce site that sells propane and propane accessories. This site was built using react, redux, node, SQL, and Sass.</li>
+                <li>Utilized React with Redux for the front end and state management.</li>
+                <li>Used PostgreSQL to store information in a relational database.</li>
+                <li>Included Stripe for easy payments.</li>
             </ul>
             </div>
             <div className="images_container">
-            <img src={Sp1}/>
             <img src={Sp2}/>
+            <img src={Sp1}/>
             </div>
             <div className="buttons">
             <a href="http://www.stricklandpropane.fun/#/" className="button">Live Site</a>
@@ -57,7 +57,10 @@ const Projects = () => {
             <div className="box">
               <h2>Recipe Finder</h2>
               <div className="project-description">
-              <p>A web application that will find any recipes that match the ingredients a user enters, using a third party API.</p>
+              <ul>
+                <li>A web application that will find any recipes that match the ingredients a user enters, using a third party API.</li>
+                <li>Built using React</li>
+              </ul>
               </div>
               <div className="images_container">
               <img src={Rf1}/>

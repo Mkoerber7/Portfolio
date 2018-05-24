@@ -351,13 +351,16 @@ i {
 
 .box {
   margin: 5em auto;
-  height: 30em;
+  padding: 1em;
+  height: auto;
   background-color: #8a8a8d;
   width: 75%;
   color: #0B132B; }
 
 .project-description {
   margin-top: 2em; }
+  .project-description li {
+    line-height: 1.5; }
 
 .buttons {
   margin-top: 5em; }
@@ -397,11 +400,11 @@ i {
 .images_container {
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+  align-items: center; }
   .images_container img {
-    height: 10em;
-    width: 18em;
-    margin-right: 3em;
+    height: 7em;
+    width: 12em;
     margin-top: 3em; }
 
 @media screen and (min-width: 798px) {
@@ -427,6 +430,8 @@ i {
     align-items: center; }
 
   .images_container {
-    flex-direction: row; } }
+    flex-direction: row; }
+    .images_container img {
+      margin-right: 2em; } }
 
 /*# sourceMappingURL=index.css.map */
