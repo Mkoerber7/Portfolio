@@ -58,8 +58,8 @@ const Projects = () => {
               <h2>Recipe Finder</h2>
               <div className="project-description">
               <ul>
-                <li>A web application that will find any recipes that match the ingredients a user enters, using a third party API.</li>
-                <li>Built using React</li>
+                <li>A web application that will find any recipes that match the ingredients a user inputs.</li>
+                <li>Implemented the use of a third party API to receive recipe data, while using Node,js and React to display it.</li>
               </ul>
               </div>
               <div className="images_container">
